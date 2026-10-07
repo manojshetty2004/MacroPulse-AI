@@ -1,0 +1,28 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases and transient files
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.DS_Store
