@@ -26,3 +26,12 @@ htmlcov/
 *.sqlite3
 *.log
 .DS_Store
+
+# Next.js
+.next/
+out/
+node_modules/
+.next-env.d.ts
+*.tsbuildinfo
+playwright-report/
+test-results/

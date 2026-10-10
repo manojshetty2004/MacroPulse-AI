@@ -6,6 +6,7 @@ charset-normalizer==3.5.2
 colorama==0.4.6
 dnspython==2.8.0
 email-validator==2.3.0
+fastapi==0.143.0
 h11==0.16.0
 httpcore==1.0.9
 httpx==0.28.1
@@ -28,4 +29,5 @@ tavily-python==0.8.5
 tiktoken==0.14.0
 typing-inspection==0.4.4
 typing_extensions==4.16.0
+uvicorn[standard]==0.47.0
 urllib3==2.8.0

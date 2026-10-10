@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --bg: #0d0f12;
+  --surface: #13161a;
+  --surface-raised: #181b20;
+  --border: #25292e;
+  --muted: #858b96;
+  --text: #ebeae7;
+  --lime: #c5f36a;
+}
+
+* { box-sizing: border-box; }
+html { min-height: 100%; background: var(--bg); scroll-behavior: smooth; }
+body { min-height: 100vh; margin: 0; background: var(--bg); color: var(--text); font-family: Arial, Helvetica, sans-serif; font-size: 13px; -webkit-font-smoothing: antialiased; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+::selection { background: #c5f36a35; color: white; }
+.chart-grid line { stroke: #262a2f; stroke-dasharray: 3 5; }
+.chart-axis { fill: #686e77; font-size: 10px; }
+.chart-tooltip { border: 1px solid #2a2f34; border-radius: 9px; background: #16191e; padding: 10px 12px; color: #e9e8e4; box-shadow: 0 10px 30px #0006; }
+.recharts-tooltip-cursor { stroke: #c5f36a35 !important; }
